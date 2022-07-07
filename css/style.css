@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,800;0,900;1,100;1,200;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* navbar start */
+
+.navbar {
+  background-color: orange !important;
+  opacity: 0.9;
+}
+
+/* navbar end */
+
+/* sectionA start */
+
+.SA_img_box {
+  height: 100vh;
+}
+
+/* sectionA end */
+
+/* sectionB start */
+
+.SB_img_box img {
+  width: 100%;
+}
+.SB_content {
+  text-align: justify;
+  font-size: 18px;
+}
+
+/* sectionB end */
+
+/* sectionC start */
+
+.SC_img_box img {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.SC_sh_1 {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .SC_sh_1 {
+    display: block;
+  }
+}
+
+/* sectionC end */
+
+/* seectionD start */
+
+.SD_img-box img {
+  width: 100%;
+}
+
+/* sectiond end */
+
+/* sectionE start */
+
+.SE_sh_1 {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .SE_sh_1 {
+    display: block;
+  }
+}
+
+/* seectionE end */
+
+/* footer start */
+
+.footer_box {
+  border: 1px solid black;
+  margin: 8px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 19px;
+}
+
+/* footer end */
